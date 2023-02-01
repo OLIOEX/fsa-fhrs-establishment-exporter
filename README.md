@@ -14,5 +14,5 @@ Clone the repo and run `npm i`
 `node index.js`
 
 ## Output
-The script will log each authority as it fetches it, so you can see if it stops or slows down massively due to memory constraints (the data set it large and my be a problem if running this on a very resource constraint machine, we are processing the whole set in one, not streaming to file). When the script completes there will be a file `fsa-establishments.csv` in the root folder of the project.
+The script will log each authority as it fetches it, so you can see if it stops or slows down massively due to memory constraints (the data set is large and may be a problem if running this on a very resource constrained machine, we are processing the whole set in one, not streaming to file). When the script completes there will be a file `fsa-establishments.csv` in the root folder of the project.
 
